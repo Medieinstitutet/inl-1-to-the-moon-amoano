@@ -319,8 +319,21 @@
     top: 13px;
   }
 }
+
+/*IPAD*/
+@media screen and (min-width: 801px) and (max-width: 850px) {
+   .textPage .space {
+    font-size: 7rem;
+  }
+  .textPage .ventures {
+    font-size: 9rem;
+    left: 5px;
+    bottom: 85px;
+  }
+}
+
 /*DESKTOP*/
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 850px) {
   .menu li:hover .underline {
     background-size: 100% 7px;
     color: inherit;
