@@ -303,21 +303,24 @@
 }
 
 /*MOBILE*/
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 800px) {
   .textPage .space {
-    font-size: 6rem;
+    font-size: 4rem;
     position: relative;
     z-index: 1;
+    left: -24px;
+    top: 62px;
   }
   .textPage .ventures {
-    font-size: 7rem;
-    left: 25px;
-    bottom: 69px;
+    font-size: 5rem;
+    left: -14px;
+    bottom: 47px;
     position: relative;
+    top: 13px;
   }
 }
 /*DESKTOP*/
-@media screen and (min-width: 850px) {
+@media screen and (min-width: 800px) {
   .menu li:hover .underline {
     background-size: 100% 7px;
     color: inherit;
